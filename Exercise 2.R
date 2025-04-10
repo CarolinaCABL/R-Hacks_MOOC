@@ -8,6 +8,12 @@ for (i in myzipfile2){
     gunzip(i, remove = F)
 }
 
+#or
+
+for (i in 1:4){
+    gunzip(myzipfile2[i], remove = F)
+}
+
 
 file.remove("1 R Hacks/Zip files/Excersise Data/2013.csv")
 
